@@ -6,7 +6,7 @@ This repository contains the code for three methods to detect gates in AIRR dron
 
 Clone this repository.
 ```bash
-git clone ......
+git clone https://github.com/nduursma/AIRR_gate_detection.git
 ```
 Change your working directory.
 ```bash
