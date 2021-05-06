@@ -47,7 +47,7 @@ This might only work on Windows. Else, make sure to have the following modules a
 
 MeanBlue is a filter based method, filtering out the vertical blue parts of an image to detect the gates. It works the best if there are two blue edges from an obstacle are visible and if there are no vertical blue bars visible in the environment. It can be used to detect the nearest gate only.
 
-![MeanBlue Processing](http://url/to/img.png)
+![MeanBlue Processing](https://github.com/nduursma/AIRR_gate_detection/blob/master/MeanBlue/fig.PNG)
 
 ### Corner Prediction
 To run the MeanBlue algorithm, use: 
@@ -71,7 +71,7 @@ The images with the predicted corners are stored in the folder *MeanBlue/perf_ev
 ## SPARET
 SPARET: Sample Patches And Run Extra Trees, works exactly as the name suggest. It samples 2500 grid points on an image and creates a 16x16 patch around them. Then an extra trees classifier classifies each point to be a gate corner or not. It works best if there are not many areas with neighbouring black and white squares in the image, except for the gate corners. It can be used to detect multiple gates within a certain range.
 
-![SPARET Results](http://url/to/img.png)
+![SPARET Results](https://github.com/nduursma/AIRR_gate_detection/blob/master/SPARET/fig.jpg)
 
 ### Gate Location Prediction
 To run the SPARET algorithm, use: 
@@ -96,7 +96,7 @@ The images with the predicted gate locations are stored in the folder *SPARET/pe
 ## SPARCK
 SPARCK: Sample Patches And Run Convolution Kernels, samples 2500 grid points on an image and creates a 16x16 patch around them. Then a 3-layer convolutional neural network with kernel size 5x5, ReLU activation and 2x2 max pooling classifies each point to be a gate corner or not. It works best if there are not many areas with neighbouring black and white squares in the image, except for the gate corners. It can be used to detect multiple gates within a certain range.
 
-![SPARCK Results](http://url/to/img.png)
+![SPARCK Results](https://github.com/nduursma/AIRR_gate_detection/blob/master/SPARCK/fig.jpg)
 
 ### Gate Location Prediction
 To run the SPARCK algorithm, use: 
