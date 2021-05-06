@@ -49,7 +49,7 @@ MeanBlue is a filter based method, filtering out the vertical blue parts of an i
 
 ![MeanBlue Processing](https://github.com/nduursma/AIRR_gate_detection/blob/master/MeanBlue/fig.PNG)
 
-### Corner Prediction
+### Gate Detection
 To run the MeanBlue algorithm, use: 
 ```bash
 python MeanBlue
@@ -73,7 +73,7 @@ SPARET: Sample Patches And Run Extra Trees, works exactly as the name suggest. I
 
 ![SPARET Results](https://github.com/nduursma/AIRR_gate_detection/blob/master/SPARET/fig.jpg)
 
-### Gate Location Prediction
+### Gate Location 
 To run the SPARET algorithm, use: 
 ```bash
 python SPARET
@@ -82,7 +82,7 @@ python SPARET
 This will store the images with the detected corners, as well as an Excel file gate_points.xlsx with the predicted gate point locations (x and y) in a new folder *predictions_SPARET*. 
 
 
-### Performance Evaluation
+### Training and Performance Evaluation
 To retrain or to evaluate the performance of the SPARET algorithm, open Jupyter Notebook.
 
 ```bash
@@ -98,7 +98,7 @@ SPARCK: Sample Patches And Run Convolution Kernels, samples 2500 grid points on 
 
 ![SPARCK Results](https://github.com/nduursma/AIRR_gate_detection/blob/master/SPARCK/fig.jpg)
 
-### Gate Location Prediction
+### Gate Location 
 To run the SPARCK algorithm, use: 
 ```bash
 python SPARCK
@@ -107,7 +107,7 @@ python SPARCK
 This will store the images with the detected corners, as well as an Excel file gate_points.xlsx with the predicted gate point locations (x and y) in a new folder *predictions_SPARCK*. 
 
 
-### Performance Evaluation
+### Training and Performance Evaluation
 To retrain or to evaluate the performance of the SPARCK algorithm, open Jupyter Notebook.
 
 ```bash
