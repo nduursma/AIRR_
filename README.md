@@ -1,6 +1,6 @@
 # MeanBlue, SPARET and SPARCK AIRR Drone Race Gate Detection Methods
 
-This repository contains the code for three methods to detect gates in AIRR drone races: MeanBlue, SPARET and SPARCK. MeanBlue is a filter-based method. SPARET runs the Extra Trees classifier on image patches. SPARCK runs a convolutional neural network on image patches.
+This repository contains the code for three methods to detect gates in AIRR drone races: MeanBlue, SPARET and SPARCK. MeanBlue is a filter-based method. SPARET runs the Extra Trees classifier on image patches. SPARCK runs a convolutional neural network on image patches. The full description can be found below.
 
 ## Installation
 
