@@ -73,7 +73,7 @@ SPARET: Sample Patches And Run Extra Trees, works exactly as the name suggest. I
 
 ![SPARET Results](https://github.com/nduursma/AIRR_gate_detection/blob/master/SPARET/fig.jpg)
 
-### Gate Location 
+### Gate Detection 
 To run the SPARET algorithm, use: 
 ```bash
 python SPARET
@@ -98,7 +98,7 @@ SPARCK: Sample Patches And Run Convolution Kernels, samples 2500 grid points on 
 
 ![SPARCK Results](https://github.com/nduursma/AIRR_gate_detection/blob/master/SPARCK/fig.jpg)
 
-### Gate Location 
+### Gate Detection 
 To run the SPARCK algorithm, use: 
 ```bash
 python SPARCK
