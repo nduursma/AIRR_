@@ -120,4 +120,6 @@ The images with the predicted gate locations are stored in the folder *SPARCK/pe
 ## AUTHOR RIGHTS
 The methodology and the code of the algorithms cannot be reused without author's permission.
 
+The code was made for an assigment of the course AE4317 Autonomous Flight of Micro-Air Vehicles, Delft University of Technology.
+
 **Contact:** Nadine Duursma, email: N.A.Duursma@outlook.com
